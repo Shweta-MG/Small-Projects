@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(234, 204, 204);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    color: rgb(7, 78, 85);
+}
+
+main {
+    height: 550px;
+    width: 95%;
+    border: black solid 2px;
+    border-radius: 10px;
+    margin: 40px auto;
+}
+
+.header,
+.inputDetails form,
+#userSection {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 10px auto;
+    padding: 20px auto;
+}
+
+.inputDetails input,
+#userSection input,
+.inputDetails button {
+    width: 200px;
+    height: 30px;
+    background-color: rgb(194, 234, 234);
+    border: rgb(194, 234, 234) solid 3px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px auto;
+    margin: 5px;
+}
+
+
+.inputDetails button {
+    background-color: rgb(73, 141, 141);
+    border: rgb(73, 141, 141) solid 3px;
+    color: rgb(66, 67, 38);
+    font-weight: bold;
+}
+
+#userSection #user1,
+#userSection #user2 {
+    margin: 150px 100px;
+}
