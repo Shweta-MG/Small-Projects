@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Convert App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="converterBody">
+        <div id="title">
+            <h1>Convert Currency</h1>
+        </div>
+
+        <form id="executionForm">
+            <div>
+                <label for="inputAmount">Amount</label>
+                <input type="number" id="inputAmount" value="1">
+            </div>
+            <div>
+                <label for="fromCurrency">From</label>
+                <select id="fromCurrency"></select>
+            </div>
+            <div>
+                <label for="toCurrency">To</label>
+                <select id="toCurrency"></select>
+            </div>
+
+            <button type="submit">Convert</button>
+            
+            <button type="reset" onclick="clearVal()">Reset</button>
+            
+        </form>
+
+        <div id="convertedAmount">
+
+        </div>
+    </div>
+
+       
+    <script src="main.js"></script>
+</body>
+</html>
