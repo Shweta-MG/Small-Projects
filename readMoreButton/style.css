@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 100px auto;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 25px;
+    text-align: justify;
+    max-width: 600px;
+    background-color: black;
+    color: rgb(134, 233, 233);
+}
+
+h1 {
+    padding-bottom: 25px;
+    color: red;
+}
+
+p {
+    padding-bottom: 25px;
+}
+
+
+.readMore {
+    display: none;
+}
+
+.readText.showMoreText .readMore {
+    display: inline;
+}
+
+.readMoreBtn {
+    font-size: 15px;
+    font-weight: bold;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: rgb(134, 233, 233);
+}
+
+.threeDots {
+    display: inline-block;
+}
+
+.readText .showMoreText .threeDots {
+    display: none;
+}
