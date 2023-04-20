@@ -1,0 +1,259 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #120c28;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 14px;      
+  color: white; 
+}
+
+/*Header is styled here*/
+header {
+  height: 60px;
+  /* width: 100%;
+  position: fixed; */
+  background-color: #201547;  
+  border-bottom: red solid 1px;
+}
+
+header img {
+  height: 60px;
+  width: 100px;  
+  border-radius: 20px;
+  border: red solid 2px;  
+}
+
+header img:hover {
+  border: white solid 2px;  
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 80px;
+  align-items: center;
+}
+
+header ul li a {
+  color: red;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+header ul li a:hover {
+  color: white;
+}
+
+/*Navigation bar is styled here*/
+nav {
+  height: 30px;
+  background-color: #201547;
+  /* width: 100%;
+  position: fixed; */
+}
+
+nav div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav div a {
+  color: red;
+  font-size: 10px;
+  text-decoration: none;   
+  padding: 8px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+nav div a:hover{
+  color: white;
+}
+
+/* Search options are styled here
+I can not change placeholder contents color. */
+main .search,
+#sortSelection {
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+main .search {
+  justify-content: space-around;
+}
+
+main .search label,
+#sortSelection label {
+  margin-right: 10px;
+  color: red;
+}
+
+main .search input {
+  width: 450px; 
+  border-radius: 10px;
+  background-color: #3f64aa;
+  color: red; 
+  padding: 1px 10px;
+}
+
+#sortSelection select {
+  width: 250px;
+  border-radius: 20px;
+}
+
+main .search input,
+#sortSelection select,
+#sortSelection select option {
+  color: red;
+  background-color: #3f64aa;
+  border: #201547 solid 2px;
+  padding: 1px 10px;
+}
+
+/*Product section is styled here*/
+ul tr {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: red;
+  line-height: 40px;
+  margin-top: 10px; 
+}
+
+#productsList #headerRow {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: red;
+  line-height: 40px;
+  margin-top: 10px; 
+}
+
+#productsList ul {
+  height: 100vh; 
+}
+
+#productsList li {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: red;
+  line-height: 40px;
+  margin-top: 10px; 
+}
+
+#productsList li h1,
+#productsList li div {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 20px;
+  width: 200px;
+} 
+
+#productsList li h1 {
+  width: 300px;
+} 
+
+
+
+/* Footer is being styled herafter*/
+.footer {
+  background-color:#201547;
+  padding: 20px 0;
+  height: 150px;
+}
+
+.footer-boundary {
+  background-color:#201547;
+  margin:auto;
+}
+
+footer ul {
+  list-style: none;
+}
+
+.footer-row {
+  display:flex;
+  flex-wrap:wrap;
+}
+
+.footer-column {
+  width: 23%;
+  padding:0 5px;  
+}
+
+.footer-column h2 {
+  color: red;
+  font-size:18px;
+  font-weight:bold;
+  text-transform:capitilize;
+  margin-bottom:15px;
+  position:relative;
+  padding-left:30px;
+}
+
+.footer-column ul li {
+  margin-bottom:10px;
+}
+
+.footer-column ul li a {
+  margin-bottom:5px;
+  font-size:12px;
+  text-decoration:none;
+  display:block;
+}
+
+.footer-column ul li a:hover {
+  color: white;
+}
+
+#instagram {
+  background-color:red;
+  transition: 0.3s ease;
+  font-size:11px;
+  width:180px;
+  height:30px;
+  line-height:30px;
+  border-radius:30px;
+  padding:0 10px 0 10px;
+}
+
+#instagram:hover {
+  background-color:white;
+  padding:5px;
+}
+
+.footer-column .socialmedia-links a {
+  display:inline-block;
+  height:30px;
+  line-height:30px;
+  width:30px;
+  background-color:rgb(255, 255, 255);
+  color:red;
+  text-align:center;
+  margin:0 7px 7px 0;
+  border-radius:30px;
+  transition:all 0.5sec ease;
+}
+
+.footer-column .socialmedia-links a:hover {
+  background-color:rgb(244, 208, 178);
+  padding:1px;
+}
+
+.footer-content {
+  color:red;
+  padding-left:30px;
+}
